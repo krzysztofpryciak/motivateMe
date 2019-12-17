@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.adform.sdk.interfaces.AdListener;
 import com.adform.sdk.interfaces.AdStateListener;
-import com.adform.sdk.network.entities.AdformEnum;
 import com.adform.sdk.pub.views.AdInline;
 
 public class MainActivity extends AppCompatActivity {
@@ -78,11 +77,9 @@ public class MainActivity extends AppCompatActivity {
         });
         adInline.setMasterTagId(745588); // wymagane - id Placementu
 
-        adInline.setBannerAnimationType(AdformEnum.AnimationType.SLIDE); // opcjonalne
-
+/*        adInline.setBannerAnimationType(AdformEnum.AnimationType.SLIDE); // opcjonalne
         adInline.setModalPresentationStyle(AdformEnum.AnimationType.SLIDE); // opcjonalne
-
-        adInline.setDimOverlayEnabled(true); // opcjonalne
+        adInline.setDimOverlayEnabled(true); // opcjonalne*/
 
         adInline.loadAd(); // wymagane
     }
