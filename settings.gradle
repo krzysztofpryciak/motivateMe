@@ -1,2 +1,2 @@
-include ':app', ':advertising-sdk-2.13.4'
+include ':app', ':advertising-sdk-2.15.0', ':smart-core-sdk-7.5.0'
 rootProject.name='motivateMe'

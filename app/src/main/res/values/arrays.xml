@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="quotes">
-        <item>Lepiej jest zapalić świecę, niż przeklinać ciemność.</item>
-        <item>Mistrzowie grają dotąd, aż grają dobrze.</item>
+        <item>Lepiej jest zapalić świecę, niż przeklinać ciemność</item>
+        <item>Mistrzowie grają dotąd, aż grają dobrze</item>
         <item>Czyń tylko to co podpowiada Ci serce</item>
         <item>Jeśli zaproponują ci miejsce w statku kosmicznym, nie pytaj, co to za miejsce. Po prostu wsiadaj</item>
         <item>Rób to, co uważasz za stosowne. I tak zawsze znajdzie się ktoś, kto uważa inaczej…</item>
@@ -16,7 +16,7 @@
         <item>Dawać bez wahania, tracić bez żalu i zdobywać bez chciwości…</item>
         <item>Nigdy nie marnuj czasu, próbując wytłumaczyć kim jesteś ludziom, którzy postanowili Cię nie zrozumieć</item>
         <item>Dawanie otwiera drogę do otrzymywania</item>
-        <item>Nauczyłam się, że droga postępu nie jest ani szybka, ani łatwa</item>
+        <item>Nauczyłam się, że droga postępu \n nie jest ani szybka, ani łatwa</item>
         <item>W życiu nie chodzi o czekanie aż burza minie. Chodzi o to, by nauczyć się tańczyć w deszczu</item>
         <item>Jeśli chcesz dobrze dla swoich dzieci, to spędzaj z nimi dwa razy więcej czasu i wydawaj na nie dwa razy mniej pieniędzy</item>
         <item>Zbyt często ludzie pracują ciężko nad niewłaściwą rzeczą. Pracować nad właściwą rzeczą jest prawdopodobnie ważniejsze niż pracować ciężko</item>
@@ -24,8 +24,8 @@
         <item>Dopóki nie będziesz cenić siebie, nie będziesz cenić własnego czasu</item>
         <item>Jesteśmy tym, co w swoim życiu powtarzamy. Doskonałość nie jest jednorazowym aktem, lecz nawykiem</item>
         <item>Jeśli nie czujesz się godny, by wyrosły Ci skrzydła, nigdy nie oderwiesz się od ziemi</item>
-        <item>Jeśli potrafisz o czymś marzyć, to potrafisz także tego dokonać</item>
-        <item>Ludzie są dokładnie tak szczęśliwi, jak myślą, że są</item>
+        <item>Jeśli potrafisz o czymś marzyć,\n to potrafisz także tego dokonać</item>
+        <item>Ludzie są dokładnie tak szczęśliwi,\n jak myślą, że są</item>
         <item>Potykając się, można zajść daleko; nie wolno tylko upaść i nie podnieść się</item>
         <item>Prawdziwy akt odkrycia nie polega na odnajdywaniu nowych lądów, lecz na patrzeniu na stare w nowy sposób</item>
         <item>Przeciwności, z którymi musimy się zmierzyć, często sprawiają, że stajemy się silniejsi. A to, co dziś wydaje się stratą, jutro może okazać się zyskiem</item>
@@ -51,61 +51,525 @@
         <item>Żadne zadanie nie jest szczególnie trudne, jeśli podzielisz je na mniejsze podzadania</item>
         <item>Ludzie boją się zmian, nawet na lepsze</item>
         <item>Szczęście to jedyna rzecz, która się mnoży, gdy się ją dzieli</item>
+        <item>Nie zadawalaj się byciem przeciętną. Przeciętność jest tak samo blisko dna jak szczytu</item>
+        <item>Co robisz kiedy nie masz nastroju na trening? Zmieniam nastrój!</item>
+        <item>Nieważne ile razy padniesz. Ważne ile razy się podniesiesz</item>
+        <item>Jeśli zaczniesz dzisiaj, efekty zobaczysz dzień wcześniej, niż gdy zaczniesz jutro</item>
+        <item>Zły trening to ten, którego nie wykonałeś.</item>
+        <item>Zaufaj sobie. Potrafisz dużo więcej niż Ci się wydaje</item>
+        <item>Jeśli chcesz się poddać przypomnij sobie dlaczego zacząłeś</item>
+        <item>Na początku będą pytać po co to robisz. Później będą pytać jak to zrobiłeś</item>
+        <item>Nieudany trening to taki, który się nie odbył.</item>
+        <item>Ból jest przejściowy. Duma trwa wiecznie.</item>
+        <item>Prawdziwy trening zaczyna się wtedy, kiedy chcesz przestać</item>
+        <item>Bądź dumny z tego co osiągnąłeś, lecz wciąż myśl o tym co jeszcze przed Tobą</item>
+        <item>Z każdym treningiem jesteś bliżej celu.</item>
+        <item>Nigdy nie wmawiaj sobie, że nie dasz rady. Wiara w siebie to połowa sukcesu</item>
+        <item>Ten kto pokonuje innych, jest silny. Ten kto pokonuje siebie, jest potężny</item>
+        <item>Dziś zrobię to, czego się innym nie chce. Jutro zrobię to, czego inni nie będą w stanie</item>
+        <item>Ból, który dziś czujesz, będzie siłą którą poczujesz jutro</item>
+        <item>Za rok będziesz żałował, że nie zacząłeś dziś.</item>
+        <item>Motywacja jest tym, co pozwala Ci zacząć. Nawyk jest tym, co pozwala Ci wytrwać</item>
+        <item>Pogoda nigdy nie będzie perfekcyjna. Ty masz szansę</item>
+        <item>Tylko wystawiając się na próby, możemy przekonać się na co nas stać</item>
+        <item>Nie musisz widzieć całych schodów. Po prostu wejdź na pierwszy stopień</item>
+        <item>Istnieje jedna przyczyna ludzkiego niepowodzenia. Jest nią brak wiary w swoje prawdziwe ja</item>
+        <item>Przestań mówić CHCIAŁBYM. Zacznij mówić ZROBIĘ TO</item>
+        <item>Jeśli podczas ćwiczeń wyglądasz dobrze, to znaczy, że nie dajesz z siebie wszystkiego</item>
+        <item>Praca nad samym sobą-to za nią dostaniesz największe wynagrodzenie</item>
+        <item>Boli? To dobrze, bo teraz już wiesz, że słabość opuszcza Twoje ciało</item>
+        <item>Jedz słodycze lub słodko wyglądaj. Wybór należy do Ciebie</item>
+        <item>Wydaje Ci się, że nie dasz rady? To nie zmęczenie, to chwilowa awaria Twojej motywacji</item>
+        <item>Twoja przyszłość kieruje to co robisz dziś a nie jutro.</item>
+        <item>Możesz mieć wszystko czego pragniesz jeżeli pozbędziesz się przekonania, że nie możesz tego mieć</item>
+        <item>Przestać marzyć, zacznij robić.</item>
+        <item>Jeśli jesteś w swojej strefie komfortu, oznacza to, że nadal się rozgrzewasz</item>
+        <item>Masz zły dzień? Zrób dobry trening.</item>
+        <item>Bądź co dzień lepszą wersję wczorajszego siebie</item>
+        <item>Nie ma złej pogody, są słabe charaktery</item>
+        <item>Działaj. Nie jutro, nie za godzinę, nie za 10 minut. Teraz</item>
+        <item>Sukces to wynik 1% natchnienia i 99% wypocenia.</item>
+        <item>Nie czekaj na idealny moment. Wybierz moment i spraw by stał się idealny</item>
+        <item>Jeśli się cofasz, to tylko po to by wziąć rozbieg.</item>
+        <item>Siłownia, musisz ją najpierw znienawidzić by ją pokochać.</item>
+        <item>Zacznij, kiedy inni szukają wymówek. Ćwicz, kiedy inni wciąż marzą. Nie poddawaj się, kiedy inni rezygnują</item>
+        <item>Drogi brzuchu. Jesteś znudzony a nie głodny.</item>
+        <item>Złe nastawienie jest jak opona: jeśli jej nie zmienisz, nie ruszysz jej z miejsca</item>
+        <item>Najlepsze w życiu rzeczy sprawiają, że się pocisz</item>
+        <item>Mam 99 problemów. Pójdę na siłownię i rozwiąże 56 z nich</item>
+        <item>Tak trzymaj! Nigdy nie wiesz kogo inspirujesz.</item>
+        <item>Nowy wschód słońca, nowa szansa</item>
+        <item>Uwierz, że dasz radę a będziesz w połowie drogi</item>
+        <item>Co dziś wydaje się takie trudne, pewnego dnia będzie Twoją rozgrzewką</item>
+        <item>Twoje ciało słyszy wszystko co mówi Twój umysł</item>
+        <item>Uwielbiam zapach świeżej ambicji z samego rana</item>
+        <item>Bądź uparty w osiąganiu Twoich celów i elastyczny w metodach dążenia do nich</item>
+<!--        <item>Zamiast "Nie mam czasu" zacznij mówić "To nie priorytet". Sprawdź co wtedy poczujesz</item>-->
+        <item>Ćwicz rano, zanim Twój mózg zdąży się zorientować co się dzieje</item>
+        <item>Nie ma windy do sukcesu, musisz pójść schodami</item>
+        <item>Najsilniejszymi nie zawsze są Ci, którzy wygrywają ale Ci, którzy nie poddają się przegrywając</item>
+        <item>Nie narzekaj, że masz pod górkę skoro zmierzasz na szczyt</item>
+        <item>Na wyniki trzeba sobie zapracować, a nie czekać aż się otrzyma coś w prezencie</item>
+        <item>Żadne jedzenie nie smakuje tak dobrze, jak uczucie bycia FIT!</item>
+        <item>Ci, którzy myślą, że nie mają czasu na uprawianie sportu, prędzej czy później będą musieli znaleźć czas na chorobę</item>
+        <item>Pot w czasie treningu to łzy Twojego tłuszczu</item>
+        <item>Każdy krok jest ważny,bylebył do przodu</item>
+        <item>Nigdy nie rezygnuj z osiągnięcia celu tylko dlatego, że osiągnięcie go wymaga czasu. Czas i tak upłynie</item>
+        <item>Zaufaj sobie. Potrafisz dużo więcej, niż Ci się wydaje</item>
+        <item>Determinacja. Jedyny steryd jaki powinieneś sobie zafundować</item>
+        <item>Nie mówię, że będzie łatwo, ale wiem, że na pewno będzie warto</item>
+        <item>Uwierz w siebie - możesz wszystko. Odnajdź siłę, cel jest blisko. To, co wczoraj niemożliwe, dziś staje się prawdziwe!</item>
+        <item>Wytrwaj tam, gdzie inni uciekają</item>
+        <item>Sukces należy do tych, którzy chcą pracować ciężej niż inni</item>
+        <item>Wstawaj! Samo się nie zrobi!</item>
+        <item>Bądź inspiracją dla tych, którzy nie mają takiego zacięcia jak Ty!</item>
+        <item>Dzisiaj jesteś lepsza niż wczoraj, jutro będziesz lepsza niż dzisiaj… więc nie pozwól by jutra nie było!</item>
+        <item>Cudotwórca - jest nim każdy, kto nie boi się wyrzeczeń i ciężkiej pracy</item>
+        <item>Cierpliwa praca nad sobą zawsze przynosi rezultaty!</item>
+        <item>Siłownia to jedyne miejsce, gdzie ból jest Twoim przyjacielem</item>
+        <item>Nie musisz być najlepszy, ale możesz być naprawdę dobry. Wymagaj od siebie, nie od innych</item>
+        <item>Siłownia zaprasza wszystkich tych, którym użalanie nad sobą już się znudziło</item>
+        <item>Kiedy chce Ci się iść na trening - idź. Kiedy nie chce Ci się iść na trening - biegnij!</item>
+        <item>Nie można się nad sobą użalać. Trzeba zacisnąć pięści i walczyć o lepsze jutro!</item>
+        <item>Żeby zacząć biegać wystarczy chwila. Aby w tym wytrwać, musisz mieć charakter</item>
+        <item>Tam, gdzie nie ma walki,nie ma siły</item>
+        <item>Samo powtarzanie "jestem za gruba" nigdy nie zbliży Cię do idealnego ciała</item>
+        <item>Dziś masz kolejną szansę, by być z siebie dumna</item>
+        <item>Możesz zrobić wszystko, co chcesz jeśli tylko trzymasz się tego celu wystarczająco długo</item>
+        <item>Zmień nawyki myślowe a odmienisz swój los</item>
+        <item>Za każdym razem kiedy startuję mam cel - biez szybciej niż kiedykolwiek wcześniej</item>
+        <item>Nie ćwiczę dlatego, że nienawidzę swojego ciała. Ćwiczę, ponieważ je kocham!</item>
+        <item>Nikt nie dba o Twoje wymówki. Nikt nie będzie użalał się nad Twoim zwlekaniem. Nikt nie będzie Cię rozpieszczał, bo jesteś leniwy. To Twój tyłek, rusz nim!</item>
+        <item>Treningi są jak mycie zębów. Nie myślę o nich. Po prostu to robię</item>
+        <item>Jeśli myślisz, że nie dasz rady… pomyśl jeszcze raz!</item>
+        <item>Biegacz to nie ten, kto szybko biega. To ten, który nie ustaje w walce</item>
+        <item>Sukces to suma niewielkiego wysiłku, powtarzanego z dnia na dzień</item>
+        <item>Bieganie boli. Lepiej zaakceptuj to na początku, bo w przeciwnym razie nigdzie nie dotrzesz</item>
+        <item>W konfrontacji strumienia ze skałą, strumień zawsze wygrywa-nie przez swoją siłę, ale wytrzymałość</item>
+        <item>Jesteś jedyną osobą, któr może wykorzystać Twój potencjał</item>
+        <item>Tylko jeden trening dzieli Cię od dobrego nastroju</item>
+        <item>Jeśli masz ochotę się poddać, przypomnij sobie dlaczego zacząłeś</item>
+        <item>Budź się z determinacją, kładź się z satysfakcją</item>
+        <item>Jutro zaczyna się już dziś</item>
+        <item>Krótki trening jest lepszy niż żaden</item>
+        <item>Aby przekształcić swoje ciało, najpierw musisz prekształcić swój umysł</item>
+        <item>Godzina ćwiczeń to 4% Twojego dnia</item>
+        <item>Nie chodzi o to by być w czymś dobrym. Chodzi o to by być dobrym dla siebie</item>
+        <item>Powolny postęp jest lepszy niż jego brak</item>
+        <item>Niechęć do swojego ciała nigdy nie zawiedzie Cię tak daleko, jak miłość do niego</item>
+        <item>Nadal jest czas by zmienić drogę, którą podążasz</item>
+        <item>Zawsze chciałem wyglądać dobrze, aż nie poczułem jak to jest być silnym</item>
+        <item>Jeśli coś nie jest dla Ciebie wyzwaniem,\n nie zmieni Cię</item>
+        <item>Zacznij teraz. Czasem "później" zmienia się w "nigdy"</item>
+        <item>Trenuj jak Bestia,\n wyglądaj jak Piękna</item>
+        <item>Spraw, żeby Twoje ciało stało się najseksowniejszym outfitem, jaki posiadasz</item>
+        <item>Już wiem jakie to uczucie towarzyszy poddawaniu się. Teraz chcę sprawdzić co się stanie, jeśli nie zrobię tego co zwykle</item>
+        <item>Jeśli nie możesz przestać o czymś myśleć, nie przestawaj na to pracować</item>
+        <item>Stań się priorytetem w swoim życiu</item>
+        <item>Dbaj o swoje ciało. To jedyne miejsce, w którym musisz żyć</item>
+        <item>Nie przestawaj dopóki nie będziesz dumny</item>
+        <item>Nie skupiaj się tak na byciu szczupłym. Jeśli uporządkujesz swoją dietę i będziesz regularnie ćwiczyć, twoja waga zadba sama o siebie</item>
+        <item>Nie ważne jak daleko szedłeś złą drogą, nie jest za późno by zawrócić</item>
+        <item>Musisz być skłonny zrobić coś czego nigdy nie robiłeś, by dotrzeć tam gdzie nigdy nie byłeś</item>
+        <item>Szczupli ludzie wyglądają dobrze w ubraniach. Ludzie wysportowani wyglądają dobrze nago</item>
+        <item>Oczywiście, że to trudne i takie być powinno. Gdyby było łatwe, wtedy wszyscy by to robili</item>
+        <item>Nie musisz jeść mniej. Musisz tylko odżywiać się zdrowo</item>
+        <item>Najlepszym projektem nad którym będziesz kiedykolwiek pracować, jesteś Ty</item>
+        <item>Fit to nie cel, to styl życia</item>
+        <item>Twoje ciało jest odzwierciedleniem Twojego stylu życia</item>
+        <item>Jak się nie ma co się lubi, to się nad tym pracuje</item>
+        <item>Najtrudniejszą rzeczą jest zacząć ćwiczyć… Kiedy już ćwiczymy regularnie najtrudniejszą rzeczą jest zaprzestać treningów</item>
+        <item>Siłownia jest tam gdzie chcesz</item>
+        <item>Nie chce Ci się iść na trening? Pomyśl, jak dobre samopoczucie tracisz na całą resztę dnia</item>
+        <item>Pobiegnij po dystans d swoich zmartwień</item>
+        <item>Każdy dzień to okazja, aby zacząć ścigać swoje marzenia</item>
+        <item>Masz ochotę poleniuchować?\n Wyjdź na trening i zasłuż na to</item>
+        <item>Im jest trudniej zebrać się na trening, tym większą satysfakcję przynosi. Sprawdź to!</item>
+        <item>Znasz kogoś kto żałuje, że zaczął biegać? Ja też nie</item>
+        <item>Szanuj swoje ciało. Innego nie dostaniesz</item>
+        <item>Ten głos w Twojej głowie, który mówi, że nie dasz rady… Kłamie</item>
+        <item>Bieganie kształtuje nie tylko ciało, ale też charakter</item>
+        <item>Wymówki biegają wolniej niż Ty</item>
+        <item>Całe miasto jest Twoją bieżnią</item>
+        <item>Trening, na który ciężko Ci wyjść, często wychodzi najlepiej</item>
+        <item>Bieganie uczy cierpliwości</item>
+        <item>Biegasz nie tylko nogami, ale także sercem i głową</item>
+        <item>To, że czasem jest ciężko oznacza, że robisz to dobrze</item>
+        <item>Bieganie pozwala cieszyć się rzeczami, których nie dostrzegaliśmy wcześniej</item>
+        <item>Bieganie równie skutecznie rzeźbi Twoją silną wolę i charakter, co spala tłuszcz</item>
+        <item>Trasa, pogoda i kwadrans na bieganie zawsze jest. Nie oszukuj się</item>
+        <item>Twoje życie staje się lepsze kiedy Ty stajesz się lepszy</item>
+        <item>Śmieciowe jedzenie o którym marzyłaś od godziny czy ciało o którym marzyłaś całe życie? Twoja decyzja</item>
+        <item>Jeśli chcesz czegoś czego nigdy nie miałeś, musisz zrobić coś czego nie robiłeś do tej pory</item>
+        <item>Jeśli nie widzisz rezultatów od razu to pamiętaj: zbudowanie Rolls-Royce\'a zajmuje 6 miesięcy a Toyoty 13 godzin</item>
+        <item>Trudne drogi prowadzą do pięknych miejsc</item>
+        <item>Dyscyplina to wybór między tym czego chcesz teraz a tym czego pragniesz najbardziej</item>
+        <item>Jeśli szukasz tej jedynej osoby, która zmieni Twoje życie, po prostu spójrz w lustro</item>
+        <item>Tylko Ty decydujesz jak wygląda Twoje ciało</item>
+        <item>Porażka jest elementem sukcesu. Przegrywasz tylko, gdy się poddajesz</item>
+        <item>Jeśli masz czas na telewizję, to masz też czas na trening</item>
+        <item>Czy wymówki są ważniejsze od Twoich marzeń?</item>
+        <item>Najtrudniejsze ćwiczenie siły początkującego biegacza. Ćwiczenie siły… woli i zmuszenie się do wyjścia z domu</item>
+        <item>Kiedy nie masz nic do roboty… spróbuj chociaż zmarnować ten czas efektywnie</item>
+        <item>Trenuj w ciszy. Twój sukces będzie krzykiem</item>
+        <item>Jeśli potrafisz o czymś marzyć, to potrafisz także tego dokonać</item>
+        <item>Nigdy nie nauczysz się pływać bez wchodzenia do wody!</item>
+        <item>Każdy mistrz był kiedyś kandydatem, który się nie poddał</item>
+        <item>Najlepszy czas na działanie jest teraz</item>
+        <item>Zamknij oczy i wybiegnij ze swojej strefy komfortu</item>
+        <item>Czasem samo podjęcie wyzwania już jest olbrzymim sukcesem</item>
+        <item>Przeciwności losu powodują, że jedni się załamują, a inni osiągają więcej niż planowali</item>
+        <item>Sukces nigdy nie jest efektem „słomianego zapału"-tu trzeba przejść przez prawdziwy ogień</item>
+        <item>Jeśli możesz kłaść się spać każdej nocy ze świadomością, że w ciągu dnia dałaś z siebie wszystko, sukces Cię znajdzie</item>
+        <item>Sukces buduje drabina stworzona z cierpliwości, wytrwałości, odroczonej gratyfikacji</item>
+        <item>Klucz do sukcesu: porzuć bezpieczeństwo, w którym dziś się znajdujesz dla tego, kim moższ się stać. Dopóki nie uczynisz czegoś ponad to, co już dokonałeś - nigdy się nie rozwiniesz</item>
+        <item>Kluczem do sukcesu jest stan umysłu, który możemy wytworzyć. Człowiek, który boi się ponosić porażki i ryzykować - osiąga o wiele mniej niż człowiek, który upada i myli się</item>
+        <item>Za każdym sukcesem stoi płonąca, wręcz nieugaszona motywacja</item>
+        <item>Najlepsi są najlepsi nie dzięki swojej inteligencji, wiedzy, czy doświadczeniu, ale dzięki motywacji - wewnętrznej sile woli oraz dobrze podejmowanym decyzjom</item>
+        <item>Najlepszy sposób na osiągnięcie sukcesu to postępować według rad, które dajemy innym</item>
+        <item>Jesteś jedyną osobą na świecie, która może wykorzystać Twój potencjał</item>
+        <item>Trzeba się nauczyć ponosić porażki. Nie można stworzyć nic nowego, jeżeli nie potrafi się akceptować pomyłek</item>
+        <item>Jeżeli chcesz kochać świat, zbawiać go i karmić, to wspaniale. Lecz najpierw pokochaj i nakarm siebie</item>
+        <item>Nie możesz zmienić swojego przeznaczenia w jedną noc. Ale możesz zmienić kierunek w którym podążasz</item>
+        <item>Szczęście nie jest czymś co możesz osiągnąć jutro. Szczęście projektujesz sobie w Teraz</item>
+        <item>Miłość zaczyna się tam, gdzie nie ma oczekiwania na dar</item>
+        <item>Żeby dostać od życia to, czego się pragnie, trzeba najpierw zdecydować, czego się pragnie</item>
+        <item>Nie w poznaniu leży szczęście, lecz w dążeniu do niego</item>
+        <item>Prawdziwe szczęście trwa wiecznie i nie może być zniszczone. Wszystko, co nie posiada tych dwu własności, nie jest prawdziwym szczęściem</item>
+        <item>Wszystko co doskonałe, dojrzewa powoli</item>
+        <item>Ze świata tego każdy ma tyle, ile sam sobie weźmie</item>
+        <item>Trzeba żyć, a nie tylko istnieć</item>
+        <item>Spraw, aby każdy dzień miał szansę stać się najpiękniejszym dniem Twojego życia</item>
+        <item>Puste kieszenie nigdy nie powstrzymały nikogo przed podjęciem działania. Mogą to zrobić tylko puste głowy i puste serca</item>
+        <item>To nie miejsce, ani spełnienie jakiegoś warunku, ale sam umysł jest tym, co może uczynić każdego szczęśliwym lub nieszczęśliwym</item>
+        <item>Amatorzy ćwiczą aż im wyjdzie, eksperci - aż nie może im nie wyjść</item>
+        <item>Wspaniałość przejawia się nie w tym, gdzie jesteśmy, ale w jakim kierunku się poruszamy. Musimy żeglować czasem z wiatrem, czasem pod wiatr, ale żeglować, nie dryfować ani stawać na kotwicy</item>
+        <item>Zachowujemy się, jakby osiągnięcie komfortu i luksusu były głównymi zadaniami w życiu, podczas gdy wszystkim, czego potrzebujemy do szczęścia jest coś, co wzbudzi nasz entuzjazm</item>
+        <item>W ciszy twoje serce znajdzie odpowiedzi, których rozum znaleźć nie potrafi</item>
+        <item>To tylko pewnego rodzaju przykrość nie być kochanym. Prawdziwym nieszczęściem jest – nie kochać</item>
+        <item>Kocha się za nic.  Nie istnieje żaden powód do miłości</item>
+        <item>Wbrew powszechnemu mniemaniu, miłość nie przynosi ze sobą cierpień. Cierpienie przynosi instynkt posiadania, który jest zaprzeczeniem miłości</item>
+        <item>Umiejętność obserwowania bez oceniania jest najwyższą formą inteligencji</item>
+        <item>Nie jesteś kroplą w oceanie. Jesteś całym oceanem zawartym w kropli</item>
+        <item>Nie możesz odnaleźć pełni poza sobą. Źródło miłości nie istnieje na zewnątrz</item>
+        <item>Nie możesz mieć lepszego jutra, jeśli cały czas myślisz o wczoraj</item>
+        <item>Wczoraj byłem bystry i chciałem zmienić świat. Dziś jestem mądry, więc zmieniam siebie</item>
+        <item>Cokolwiek sprawia twemu sercu radość, stanowi właśnie taki kierunek, który twe życie musi obrać</item>
+        <item>Kochać to znaczy widzieć osobę, rzecz, sytuację takimi jakie naprawdę są, a nie takimi jakie wyobrażasz sobie, że są</item>
+        <item>Umysł przypomina żyzny ogród, którym trzeba się  codziennie zajmować, aby kwitł</item>
+        <item>Częścią przebudzenia jest to, abyś przeżył swoje życie tak, jak chcesz i zrozumiał, że to nie jest egoistyczne</item>
+        <item>Skup się na świetle i miłości zamiast na lęku, ponieważ przyciągasz do siebie to, na czym się koncentrujesz. Jesteś wolny, gdy nie ma w tobie lęku</item>
+        <item>To nie wydarzenie, ale nasz punkt widzenia i interpretacje wpływają na nasze emocje</item>
+        <item>Wszystko na świecie działa dla Ciebie, nie przeciw Tobie</item>
+        <item>Stan twojego życia jest niczym innym jak odbiciem stanu Twojego umysłu</item>
+        <item>Nie śmiejemy się dlatego, że jesteśmy szczęśliwi. Jesteśmy szczęśliwi, dlatego że się śmiejemy</item>
+        <item>Każdy strzał w dziesiątkę jest wynikiem setki strzałów chybionych</item>
+        <item>Przestań klasyfikować zdarzenia jako dobre czy złe. Po prostu spróbuj ich doświadczać, cieszyć się nimi i wyciągaj wnioski</item>
+        <item>Przyszłość będzie szczodra jedynie wtedy, gdy wszystko ofiarujesz teraźniejszości</item>
+        <item>Doceniaj swoje wady podobnie jak doceniasz swe zalety. One pomagają Ci się uczyć</item>
+        <item>Dopóki będziesz wierzyć w swoje myśli, dopóty będą stwarzać twoją rzeczywistość</item>
+        <item>Przyciągasz to, na czym skoncentrujesz swój umysł</item>
+        <item>W życiu nie ma problemów, są jedynie możliwości</item>
+        <item>Nigdy nie możesz popełnić tego samego błędu dwa razy, ponieważ za drugim razem  to nie będzie Twój błąd a wybór</item>
+        <item>Jedynym złym krokiem, jest ten nie zrobiony</item>
+        <item>Pozwól sobie na szczęście. Nie wymyślaj wyimaginowanych przeszkód. Nie czekaj na więcej. Nie uzależniaj swojego szczęścia od rzeczy czy ludzi. Pozwól sobie być szczęśliwym tu i teraz z tym co masz</item>
+        <item>Przestań mieć nadzieję, zacznij wierzyć</item>
+        <item>Skoro nie można się cofnąć, trzeba znaleźć najlepszy sposób, by pójść naprzód</item>
+        <item>Chowanie urazy to jak picie trucizny w nadziei, że pozabija twoich wrogów</item>
+        <item>Aby odnieść sukces, twoje pragnienie sukcesu musi być większe niż strach przed porażką</item>
+        <item>Zła wiadomość jest taka, że czas leci. Dobra wiadomość jest taka, że Ty jesteś pilotem</item>
+        <item>Najbardziej wartościową rzeczą jaką możesz zrobić, to pomylić się. Niczego się nie nauczysz będąc doskonałym</item>
+        <item>To, co dostajesz osiągając swoje cele, nie jest tak ważne, jak to, kim się stajesz osiągając je</item>
+        <item>Kiedy się budzisz, masz dwie możliwości – spać dalej i znów marzyć, albo wstać i te marzenia spełniać</item>
+        <item>Nie zmieniaj się dla kogoś. Pracuj nad sobą tylko i wyłącznie dla siebie. To ty masz popatrzeć w lustro i widzieć tego, kim jesteś, a nie marionetkę uszytą z ludzkich upodobań</item>
+        <item>Nie zmieniaj innych. Zmień siebie, a wtedy zobaczysz, że inni też się zmienili</item>
+        <item>Wspaniałe pomysły kosztują grosze. Bezcenni są ludzie, którzy je urzeczywistniają</item>
+        <item>Przyjaciół nie poznajemy w biedzie, tylko po tym jak znoszą nasz wymarzony sukces</item>
+        <item>Zrób dzisiaj coś, czego innym się nie chce, jutro będziesz mieć to, czego oni pragną</item>
+        <item>Jeśli się smucisz, to żyjesz przeszłością,  jeśli się boisz to żyjesz przyszłością, jeśli jesteś spokojny to żyjesz teraźniejszą</item>
+        <item>Jeśli problem da się rozwiązać, nie ma się czym martwić, jeśli problemu nie da się rozwiązać, martwić się nie ma sensu</item>
+        <item>Szukaj rady ludzi, którzy powiedzą Ci prawdą o Tobie, nawet jeśli boli Cię to słyszeć. Same pochwały nie przyniosą poprawy, której Ci potrzeba</item>
+        <item>Nie jest najważniejsze, byś był lepszy od innych. Najważniejsze jest, byś był lepszy od samego siebie z dnia wczorajszego</item>
+        <item>Długość życia jest taka sama, bez względu na to, czy przeżyje się je ze śmiechem czy z płaczem. Wybór należy do nas</item>
+        <item>Nie ma drogi do szczęścia. To szczęście jest drogą</item>
+        <item>Żyj tak jakbyś miał umrzeć jutro, ucz się tak jakbyś miał żyć wiecznie</item>
+        <item>Dochodzimy do miłości nie przez znajdowanie perfekcyjnej osoby,  ale przez uczenie się widzenia nieprefekcyjnej osoby w perfekcyjny sposób</item>
+        <item>Chciano za szczęściem rozpisać listy gończe, ale nikt nie umiał podać rysopisu</item>
+        <item>Bez Twojego przyzwolenia nikt nie może sprawić, że poczujesz się gorszy</item>
+        <item>Tak naprawdę, to zawsze wiesz, co jest w danej chwili właściwym działaniem. Problem polega na podjęciu tego działania</item>
+        <item>Prawdziwą miarą człowieka jest to, jak traktuje kogoś, kto nie może się mu w żaden sposób odwdzięczyć</item>
+        <item>Problemem nie jest to, że istnieją problemy. Problemem jest oczekiwanie, że będzie inaczej i myślenie, że doświadczanie problemów jest problemem</item>
+        <item>Próba robienia nowych rzeczy bez przekonania, że są dobre jest tak skuteczna, jak sadzenie nowych nasion i podlewanie ich benzyną</item>
+        <item>Fascynujący jest dla mnie fakt, że większość ludzi planuje swoje wakacje z większą starannością niż swoje życie. Być może jest tak dlatego, że ucieczka jest łatwiejsza od zmiany</item>
+        <item>Uśmiech to magia – powstaje z niczego, a potrafi zdziałać cuda</item>
+        <item>Żyj tak, aby twoim znajomym zrobiło się nudno, kiedy umrzesz</item>
+        <item>Jeśli sądzisz, że jesteś zbyt nieznaczący, by mieć jakiś wpływ i coś zmienić, spróbuj zasnąć z komarem brzęczącym nad uchem</item>
+        <item>Szczęście to jedyna rzecz która się mnoży jeśli się ją dzieli</item>
+        <item>Dziecko może nauczyć dorosłych trzech rzeczy: cieszyć się bez powodu, być ciągle czymś zajętym i domagać się ze wszystkich sił, tego czego się pragnie</item>
+        <item>Żadna ilość pieniędzy nie sprawi, że poczujesz się wygodnie, jeśli nie czujesz się wygodnie z samym sobą</item>
+        <item>Najgłębszym sekretem jest to, że życie nie polega na odkrywaniu, ale na tworzeniu. Nie odkrywasz siebie, tylko tworzysz siebie. W związku z tym nie staraj się dowiedzieć kim jesteś, staraj się dowiedzieć kim chcesz być</item>
+        <item>Najlepszym przyjacielem jest ten, kto nie pytając o powód smutku, potrafi sprawić, że znów wraca radość</item>
+        <item>Napisane w języku chiński słowo „kryzys” złożone jest z dwóch symboli: jeden oznacza niebezpieczeństwo, a drugi nowe możliwości</item>
+        <item>Jeśli masz doła … to przede wszystkim przestań kopać</item>
+        <item>Myśl o przeszłości tylko wtedy, kiedy może ci ona sprawić przyjemność</item>
+        <item>Sukces to drabina, po której nie sposób wspiąć się z rękami w kieszeniach</item>
+        <item>Upadłeś? Cóż z tego? Wstań i uśmiechnij się jak gdyby nic. Potknąć się to nic złego. Ale leżeć bezczynnie – to wstyd</item>
+        <item>Poszukaj sytuacji, w której Twoja praca będzie dawała Ci tyle szczęścia co Twój wolny czas</item>
+        <item>Satysfakcja tkwi w wysiłku, nie w osiągnięciu. Pełny wysiłek, to pełne zwycięstwo</item>
+        <item>Ufaj sobie. Wiesz więcej, niż Ci się wydaje, że wiesz</item>
+        <item>Najpiękniejsze chwile przeżywamy wtedy, kiedy dowiadujemy się, że ktoś nas kocha</item>
+        <item>Geniusz to 25% wybitnych uzdolnień, 10% szczęścia i 65% twardej, nieustępliwej i pełnej zapału pracy</item>
+        <item>Najlepszym sposobem na smutek jest nauczenie się czegoś nowego</item>
+        <item>To nie przypadek, że sprawy z większym prawdopodobieństwem pójdą po Twojej myśli, jeśli przestaniesz się martwić, czy wygrasz czy przegrasz i skupisz swoją pełną uwagę na tym, co dzieje się właśnie w tym momencie</item>
+        <item>Nasze życie zawsze pokazuje rezultat naszych dominujących myśli</item>
+        <item>Miłość do siebie samego to początek romansu na całe życie</item>
+        <item>Zawsze trzeba wiedzieć, kiedy kończy się jakiś etap w życiu. Jeśli uparcie chcemy w nim trwać dłużej niż to konieczne, tracimy radość i sens tego co przed nami</item>
+        <item>O ileż lepiej płakać z radości, niż znajdować radość w płaczu</item>
+        <item>Cierpienie rodzi się wtedy, kiedy oczekujemy, że inni będą nas kochać tak jak sobie to wymyśliliśmy, a nie tak jak powinna objawiać się miłość</item>
+        <item>Pamiętaj, że wszystko, co uczynisz w życiu, zostawi jakiś ślad. Dlatego miej świadomość tego, co robisz</item>
+        <item>Ciesz się każdą chwilą, abyś potem nigdy nie żałował, że utraciłeś młodość</item>
+        <item>Jeśli przeszłość cię nie zadowala, zapomnij o niej. Wymyśl sobie inną historię życia i uwierz w nią. Pamiętaj tylko te chwile, kiedy udało i się dopiąć celu. Poczujesz siłę, by osiągnąć to, czego pragniesz</item>
+        <item>Nigdy nie dostrzegamy skarbów, które mamy tuż przed oczyma. Dzieje się tak dlatego - bo ludzie nie wierzą w skarby</item>
+        <item>To podróż daje nam szczęście, nie jej cel</item>
+        <item>Po drugiej stronie chmur jest zawsze czyste niebo</item>
+        <item>Pamiętaj, że wszystko można zacząć od nowa. Jutro jest zawsze świeże i wolne od błędów</item>
+        <item>Poczucie humoru dobrze amortyzuje życiowe wstrząsy</item>
+        <item>90 % naszych zmartwień dotyczy spraw, które się nigdy nie zdarzą</item>
+        <item>Żyj aby Twoje życie było wykrzyknikiem a nie znakiem zapytania</item>
+        <item>Ograniczenia masz tylko po to, byś mógł być jeszcze bardziej dumny gdy osiągniesz sukces</item>
+        <item>Wspaniałe sukcesy osiągają tylko ci, którzy ośmielili się uwierzyć, że coś w nich samych jest potężniejsze od okoliczności</item>
+        <item>Sukces powinien być mierzony nie tyle pozycją, jaką się osiągnęło w życiu, ile przeszkodami, jakie się pokonało w dążeniu do sukcesu</item>
+        <item>Im coś bardziej Cię denerwuje, tym bardziej jest przeznaczone właśnie dla Ciebie - jest Ci potrzebne. Gdy przestaje Cię denerwować, stało się zbędne, ponieważ lekcja została przyswojona</item>
+        <item>Bądź wdzięczny za to, co masz, a będziesz miał tego więcej. Jeśli koncentrujesz się na tym, czego nie masz, nigdy nie będziesz miał wystarczająco dużo</item>
+        <item>Jesteśmy odzwierciedleniem pięciu osób, z którymi spędzamy najwięcej czasu. To oni nas motywują, doradzają, krytykują. Przyjrzyj się, z kim Ty przestajesz</item>
+        <item>Ludzi wyprowadzają z równowagi nie same fakty, lecz sposób w jaki je widzą</item>
+        <item>Mówisz, że możesz – to możesz. Mówisz, że nie możesz – to nie możesz. Więc sobie wybierz</item>
+        <item>Pesymista szuka przeciwności w każdej okazji. Optymista widzi okazję w każdej przeciwności</item>
+        <item>Przyjdzie taka chwila, gdy stwierdzisz, że wszystko się skończyło. To właśnie będzie początek</item>
+        <item>Umysł potępiający nigdy nie będzie mógł zrozumieć życia. Bądź obserwatorem</item>
+        <item>Śmiejcie się nie czekając, aż będziecie szczęśliwi, inaczej bowiem umrzecie, nie roześmiawszy się ani razu</item>
+        <item>Śmiech jest dla duszy tym samym, czym tlen dla płuc</item>
+        <item>Nie potrafię podać niezawodnego przepisu na sukces, ale mogę podać przepis na porażkę: staraj się zawsze wszystkich zadowolić</item>
+        <item>Nie powstrzymuje Cię ani brak potencjału, ani brak okazji - powstrzymuje Cię brak pewności siebie</item>
+        <item>Mądry człowiek nie czeka na okazje, sam je stwarza</item>
+        <item>Opanowanie innych to siła, opanowanie siebie to prawdziwa moc</item>
+        <item>Jednym z największych odkryć jakie uczynił człowiek, i jedną z największych dla niego niespodzianek, jest odkrycie, że może on uczynić to, o czym ze strachem sądził, że nie potrafi uczynić</item>
+        <item>Ludzie odnoszący sukces wierzą w siebie, zwłaszcza kiedy inni w nich nie wierzą</item>
+        <item>Życie jest za krótkie aby odkładać wszystko na później</item>
+        <item>Sukcesy znanych ludzi są proporcjonalne do wysiłku, jaki włożyli w wybraną dziedzinę swojej działalności</item>
+        <item>Przyszłość należy do tych, którzy wierzą w piękno swoich marzeń</item>
+        <item>Różnica między tym, co robimy, a co jesteśmy w stanie zrobić, wystarczyłaby, bo rozwiązać większość problemów tego świata</item>
+        <item>Jeśli coś wiesz, przyznaj, że wiesz. Gdy zaś czegoś nie wiesz, przyznaj, że nie wiesz. Oto prawdziwa wiedza</item>
+        <item>Nigdy nie żałuj znajomości z kimś, przez kogo byłeś chociaż przez chwilę szczęśliwy</item>
+        <item>Najbardziej twórczą ze wszystkich prac jest praca nad sobą, która pozwala odnajdywać urok młodości</item>
+        <item>A może to już czas aby zignorować opinie innych i zacząć żyć po swojemu, nie słuchając innych?</item>
+        <item>Doceń to co masz zanim czas sprawi, że docenisz to co miałeś</item>
+        <item>Istnieje zaledwie jedna przyczyna ludzkiego niepowodzenia. A jest nią brak wiary w swoje prawdziwe ja</item>
+        <item>Gdybyśmy robili wszystko, na co nas stać, bez żadnej przesady zadziwilibyśmy siebie</item>
+        <item>Zazwyczaj mamy dość czasu, jeśli potrafimy wykorzystać go właściwie</item>
+        <item>Uśmiechnij się! Wszystko co jest dobre, czeka na Ciebie i najchętniej przychodzi do tych, którzy się uśmiechają!</item>
+        <item>Stajesz się silny, kiedy poznajesz swoje słabości. Stajesz się piękny, kiedy akceptujesz swoje wady. Stajesz się mądry, kiedy uczysz się na swoich błędach</item>
+        <item>Gdy nie wiesz, do którego portu płyniesz, żaden wiatr nie jest dobry</item>
+        <item>Choćbyśmy cały świat przemierzyli w poszukiwaniu Piękna, nie znajdziemy go nigdzie, jeżeli nie nosimy go w sobie…</item>
+        <item>Talent jest tańszy od soli. Tym, co odróżnia utalentowanego człowieka od człowieka sukcesu, jest mnóstwo ciężkiej pracy</item>
+        <item>Nie można pomóc komuś wspiąć się wyżej, samemu nie zbliżając się do szczytu</item>
+        <item>Każdy, kto przestaje się uczyć jest stary, bez względu na to, czy ma 20 czy 80 lat. Kto kontynuuje naukę pozostaje młody. Najwspanialszą rzeczą w życiu jest utrzymywanie swojego umysłu młodym</item>
+        <item>Każda sekunda, to szansa na zmianę swojego życia</item>
+        <item>Gdy nie mamy w sobie gniewu, nie mamy też wrogów</item>
+        <item>Jeśli ktoś stracił pieniądze nic nie stracił. Jeśli ktoś przegrał bitwę i stracił wojsko mało stracił. Jeśli ktoś stracił wiarę wszystko stracił</item>
+        <item>Każda porażka jest szansą, aby spróbować jeszcze raz, tylko mądrzej</item>
+        <item>Brak czasu jest naprawdę brakiem priorytetów</item>
+        <item>Gdy słucham co mówisz, słyszę kim jesteś</item>
+        <item>Ludzie nie dlatego przestają się bawić, że się starzeją, lecz starzeją się, bo przestają się bawić</item>
+        <item>Łatwiej powiedzieć "nie" na początku, niż na końcu</item>
+        <item>To co płynie z głębi naszego serca, nie wymaga wysiłku</item>
+        <item>Każdy człowiek na kuli ziemskiej ma skarb, który gdzieś na niego czeka</item>
+        <item>Planowanie to oprawianie przyszłości w ramy teraźniejszości. Możesz to zrobić już dzisiaj</item>
+        <item>Cechą wspólną wszystkich ludzi sukcesu jest przezwyciężenie pokusy, by dać za wygraną</item>
+        <item>Bycie szczerym może nie da Ci zbyt wielu przyjaciół ale zawsze da Ci tych właściwych</item>
+        <item>Nie pozwól, by dzień wczorajszy zajmował zbyt dużą część dnia dzisiejszego</item>
+        <item>Nieważne, że coś tam nie wyszło. Rób swoje! Uda się!</item>
+        <item>Jedynym, co ogranicza siłę, są więzy wiary</item>
+        <item>Tylko dobro czyni więcej dobra w życiu, które jest przed Tobą</item>
+        <item>Co należy zrobić po upadku? To, co robią dzieci: podnieść się</item>
+        <item>Zawsze bądź pierwszorzędną wersją siebie, zamiast drugorzędną wersją kogoś innego…</item>
+        <item>Życie to dziesięciobiegowy rower. Większość z nas ma biegi, których nigdy nie używa</item>
+        <item>Wszystko co możesz sobie wyobrazić, możesz również osiągnąć</item>
+        <item>Powiedz komuś, że jest odważny, a pomożesz mu stać się takim</item>
+        <item>Nie szczędź czasu, aby być szczęśliwym</item>
+        <item>Każde działanie podjęte bez planu kryje zalążek wszelkiego niepowodzenia</item>
+        <item>Dlaczego nie ryzykować chodząc po drzewach? Przecież to na nich rosną owoce!</item>
+        <item>Na co przyda się wspinanie po drabinie sukcesu, jeżeli u celu okaże się, że opiera się ona o niewłaściwy budynek?</item>
+        <item>Nie ma większego nieszczęścia nad uleganie pożądaniom i większego przewinienia nad nienasycenie</item>
+        <item>Istnieje na tym świecie wielu ludzi, którzy spędzają tyle czasu dbając o zdrowie, że nie mają czasu, by się nim cieszyć</item>
+        <item>Tajemnica szczęścia nie leży w większym posiadaniu, ale w umiejętności cieszenia się mniejszym posiadaniem</item>
+        <item>Największym zagrożeniem dla większości z nas nie jest to, że postawimy sobie za wysoki cel i nie osiągniemy go, ale że postawimy sobie za mały cel i osiągniemy go</item>
+<!--        <item>Różnica między ludźmi, którzy realizują swoje marzenia, a całą resztą świata nie polega na zasobności portfela. Chodzi o to, że jedni przez całe życie czytają o dalekich lądach i śnią o przygodach, a inni pewnego dnia podnoszą wzrok znad książki, wstają z fotela i ruszają na spotkanie swoich marzeń</item>-->
+        <item>Sukces jest zdolnością do przejścia od jednej porażki do drugiej bez utraty entuzjazmu</item>
+        <item>Przyroda nie spieszy się, a jednak ze wszystkim nadąża</item>
+        <item>Błąd łatwiej można dostrzec niż prawdę, bo błąd leży na wierzchu, a prawda w głębi</item>
+        <item>Gdy osądzasz innych - nie pokazujesz jakimi oni są - pokazujesz jaki Ty jesteś</item>
+        <item>Jeżeli istnieje sposób, by zrobić coś lepiej… znajdę go</item>
+        <item>Najlepszy sposób osiągnięcia szczęścia - to rozsiewanie go wokół siebie</item>
+        <item>Najpierw postaraj się być wartościowym człowiekiem, sukces nadejdzie sam</item>
+        <item>Szaleństwem jest zachowywać się w ten sam sposób i oczekiwać innego rezultatu</item>
+        <item>Sukces jest czymś, co przyciągasz poprzez to, kim się stajesz</item>
+        <item>Wielkie umysły mają cele. Małe umysły mają życzenia</item>
+        <item>Najlepszą metodą przewidywania przyszłości jest jej tworzenie</item>
+        <item>Jeśli jesteś dobrą piłką, to im silniej cię uderzą, tym wyżej się wzniesiesz</item>
+        <item>Podróż tysiąca mil zaczyna się od jednego kroku</item>
+        <item>Pamiętaj, iż twoja własna determinacja, by osiągnąć sukces, liczy się bardziej, niż cokolwiek innego na świecie</item>
+        <item>Wyzwania stawiane Ci przez życie nie mają Cię sparaliżować - one mają pomóc Ci odkryć, kim jesteś</item>
+        <item>Nie ma takiej fantazji, której wola i rozum ludzki nie zdołałyby przekształcić w rzeczywistość</item>
+        <item>Jeżeli coś ci się nie uda, możesz być rozczarowany. Jeżeli jednak nie będziesz dalej próbować, już po tobie</item>
+        <item>O radę pytaj tego, kto sam sobie radzi</item>
+        <item>Nie starzeje się ten, kto nie ma na to czasu</item>
+        <item>Nic tak nie przyczynia się do szybkiego sukcesu jak cudze błędy</item>
+        <item>Stojący w porcie statek jest bezpieczny, ale statków nie buduje się po to aby stały w portach</item>
+        <item>Twoim celem musi być zdobycie wszystkiego bez zniszczenia czegokolwiek</item>
+        <item>Żyj kierując się swoją wyobraźnią, nie swoją historią</item>
+        <item>Jedyną rzeczą, która jest jednakowa na całym świecie jest ilość godzin na dobę. Różnica między wygrywaniem a przegrywaniem tkwi w tym, co robisz z tymi godzinami</item>
+        <item>Ludzie mogą ponosić wiele porażek, ale stają się przegranymi tylko jeśli zaczynają za nie obwiniać kogoś innego</item>
+        <item>Działanie jest podstawowym kluczem do każdego sukcesu</item>
+        <item>Poświęcaj tyle czasu na ulepszanie siebie, byś nie miał go na krytykę innych</item>
+        <item>Co ważniejsze dla sukcesu: talent czy pracowitość? A co ważniejsze w rowerze: przednie czy tylne koło?</item>
+        <item>Jak blask słońca oświetla wnętrze komnaty, tak nauka rozświetla umysł</item>
+        <item>Nie myśl o szczęściu. Nie przyjdzie – nie zrobi zawodu. Przyjdzie – zrobi niespodziankę</item>
+        <item>Życie jest ciągiem doświadczeń, z których każde czyni nas silniejszymi, mimo że czasem trudno nam to sobie uświadomić</item>
+        <item>Jeden siedzi dziś w cieniu dlatego, że inny dawno temu posadził w tym miejscu drzewo</item>
+        <item>Nie czekaj. Pora nigdy nie będzie idealna!</item>
+        <item>Najważniejszym powodem, dla którego ludzie nie osiągają tego, co chcą, jest to, że sami nie wiedzą, czego chcą</item>
+<!--        <item>Myśl w kategoriach sukcesu, wyobrażaj sobie sukces, a wprawisz w ruch moc dającego się zrealizować pragnienia. Kiedy obraz umysłowy lub postawa będzie utrzymywana wystarczająco mocno, w rzeczywistości przejmie kontrolę nad warunkami i okolicznościami</item>-->
+        <item>Nikt nie jest w stanie sprawić, byś poczuł się gorszym, bez Twojego pozwolenia</item>
+        <item>Czytanie dobrych książek jest niczym rozmowa z najwspanialszymi ludźmi</item>
+        <item>Jeżeli upadłeś siedem razy, podnieś się osiem razy</item>
+        <item>Bądź wierny sobie, a nie będziesz niewierny innym</item>
+        <item>Biednym jest nie ten, kto ma mało, ale ten, kto tęskni za tym, by mieć więcej</item>
+        <item>Nic nie broni nas lepiej aniżeli ciepło uśmiechu</item>
+        <item>Tylko ta praca daje siły, która i sił wymaga</item>
+        <item>Chcąc doznać pełni szczęścia, trzeba je dzielić z kimś drugim</item>
+        <item>To czego się nauczymy w kolebce, będzie trwało na zawsze</item>
+        <item>Jeśli dasz człowiekowi rybę, nakarmisz go na jeden dzień. Jeśli nauczysz go, jak łowić ryby, nakarmisz go na całe życie</item>
+        <item>Wykopuj studnię zanim poczujesz pragnienie</item>
+        <item>Geniusz to czasem tylko instynkt, który nie podlega doskonaleniu; częściej jest to sztuka trafnego kojarzenia codziennie doskonalona dzięki obserwacji i doświadczeniu</item>
+        <item>Kto szuka przyjaciela bez żadnych wad, nie będzie miał żadnego</item>
+        <item>Największym zwycięstwem jest to, które odnosimy nad nami samymi</item>
+        <item>Kochasz życie? Nie trwoń zatem swego czasu, ponieważ ono jest z niego utkane</item>
+        <item>Słowa są karzełkami, przykłady są kolosami</item>
+        <item>Nie ma żadnego usprawiedliwienia, by nie stać się wielkim</item>
+        <item>Ludzie każdego dnia poprawiają swoje włosy. A dlaczego nie serce?</item>
+        <item>Geniusz to wynik 1 procenta natchnienia i 99 procent wypocenia</item>
+        <item>Wygrywa tylko ten, kto ma jasno określony cel i nieodparte pragnienie, aby go osiągnąć</item>
+        <item>Podczas gdy nieśmiały rozmyśla, odważny idzie naprzód, zwycięża i wraca</item>
+        <item>W konfrontacji strumienia ze skałą, strumień zawsze wygrywa - nie przez swoją siłę, ale przez wytrwałość</item>
+        <item>Motywacja jest tym, co pozwala Ci zacząć. Nawyk jest tym, co pozwala Ci wytrwać</item>
+        <item>Życia nie mierzy się ilością oddechów, ale ilością chwil, które zapierają dech w piersiach</item>
+        <item>Doskonałość jest miarą nieba, dążenie do doskonałości miarą człowieka</item>
+        <item>Jeżeli twoje marzenia Cię nie przerażają - nie są wystarczająco duże</item>
+        <item>Człowiek, który umie żyć w harmonii z samym sobą jest szczęśliwy</item>
+        <item>Nic, co ma wielką wartość w życiu, nie przychodzi łatwo</item>
+        <item>Ten, kto naprawdę umie żyć, zaczyna dzień od uśmiechu</item>
+        <item>Nie należy gniewać się na bieg wypadków, bo to ich nic nie obchodzi</item>
+        <item>Obie rzeczy - zarówno to, przed czym uciekasz, jak i to, za czym wzdychasz - są w tobie</item>
+        <item tools:ignore="Typos">Za każdy dar łaski bądź wdzięczny, a większego staniesz się godny, bo wdzięczność za otrzymane łaski jest modlitwą o nowe</item>
+        <item>Zwycięzcy robią to, czego przegranym się nie chciało</item>
+        <item>Denerwować się to mścić się na własnym zdrowiu za głupotę innych</item>
+        <item>Mądry człowiek więcej możliwości tworzy, niż znajduje</item>
+        <item>Szczęście nie jest sprzymierzeńcem ludzi bezczynnych</item>
+        <item>Jeśli chcesz być tym, kim nie jesteś, to musisz być niezadowolony z tego, kim jesteś</item>
+        <item>Kto w drobnej rzeczy jest wierny, ten i w wielkiej będzie wierny; a kto w drobnej rzeczy jest nieuczciwy, ten i w wielkiej nieuczciwy będzie</item>
+        <item>Twój los kształtuje się w momentach podejmowania decyzji</item>
+        <item>Jeśli istnieje jakakolwiek pewna droga do sukcesu i spełnienia w życiu, to można ją odnaleźć w nieśpiesznym, pozbawionym doraźnych celów procesie samodoskonalenia</item>
+        <item>Kto myśli o problemach – ma problemy. Kto myśli o rozwiązaniach – ma rozwiązania</item>
+        <item>Lepiej zaliczać się do niektórych, niż do wszystkich</item>
+        <item>Sukces jest wynikiem właściwej decyzji</item>
+<!--        <item>Idź własną drogą, ignorując konwencjonalne mądrości. Jeśli wszyscy robią coś tak samo, masz szansę znalezienia miejsca dla siebie idąc w przeciwną stronę. Przygotuj się jednak na to, że mnóstwo ludzi machnie ręką i powie, że podążasz w złym kierunku</item>-->
+        <item>Każdy ma swój własny Mount Everest, dla którego zdobycia pojawił się na ziemi</item>
+        <item>Nie potykają się tylko ci. Którzy stoją w miejscu</item>
+        <item>Sukces zwykle przychodzi do tych, którzy są zbyt zajęci by go szukać</item>
+        <item>Połowa osiągnięcia celu to jego prawidłowe wyznaczenie</item>
+        <item>Doświadczenie nie jest tym co przytrafia się człowiekowi. Jest tym, co człowiek robi z tym, co mu się przytrafia</item>
+        <item>I kiedy czegoś gorąco pragniesz, to cały wszechświat sprzyja potajemnie twojemu pragnieniu</item>
+        <item>Bezcelowe są zabiegi o dobre plony, gdy ziarno źle posiano</item>
+        <item>Wielkie rzeczy nie powstają w wyniku impulsu, a w wyniku poskładania małych rzeczy w jedną całość</item>
+        <item>Nawet najbardziej praktyczna, piękna i wykonalna filozofia na świecie nie zadziała, jeśli Ty nie będziesz działać</item>
+        <item>Najwyższą doskonałość osiąga człowiek, znajdując własne niedoskonałości</item>
+        <item>Cierpliwość jest kluczem do zadowolenia</item>
+        <item>Miłość ugruntowana na wspólnym szacunku, nigdy sie nie kończy</item>
+        <item>Tam sięgaj gdzie wzrok nie sięga, łam czego rozum nie złamie. Młodości! orla twych lotów potęga, jako piorun twoje ramię…</item>
+        <item>Kiedy jesteś kochany, stajesz się silny. Kiedy Ty sam kochasz, stajesz się odważny</item>
+        <item>Nic tak człowieka nie męczy, jak niedokończona robota, która nad nim wisi</item>
+        <item>Postępuj zawsze właściwie. Da to satysfakcję kilku ludziom, a resztę zadziwi</item>
+        <item>Zanim umrę, chcę walczyć o życie. Dopóki mogę iść o własnych siłach, pójdę tam, gdzie zechcę</item>
+        <item>Albo znajdziemy drogę, albo ją sami wytyczymy</item>
+        <item>Odwaga nie polega na nieodczuwaniu strachu, ale na umiejętności działania mimo niego</item>
+        <item>Odważnym szczęście sprzyja</item>
+        <item>Ludzie, którzy tracą czas czekając, aż zaistnieją najbardziej sprzyjające warunki, nigdy nic nie zdziałają. Najlepszy czas na działanie jest teraz!</item>
+        <item>Nie chodzi o to, aby być lepszym od poprzedników, lecz by być lepszym od samego siebie</item>
+        <item>Przyszłość zaczyna się dzisiaj, nie jutro</item>
+        <item>By dojść do źródła, trzeba płynąć pod prąd</item>
+        <item>Im więcej mamy czasu na wykonanie jakiejś pracy, tym więcej czasu ona nam zabiera</item>
+        <item>Kto nie ma odwagi do marzeń, nie będzie miał siły do walki</item>
+        <item>Marnowanie swoich talentów i ambicji to śmierć za życia. Po co żyć, jeśli właściwie jest się martwym?</item>
+        <item>Człowiek nie jest stworzony do klęski. [. . .] Człowieka można zniszczyć, ale nie pokonać</item>
+        <item>Nic nie jest szczególnie trudne do zrobienia, jeśli tylko rozłożyć to na etapy</item>
+        <item>Jeśli nie ustalisz swoich celów, jesteś skazany na pracę przy osiąganiu celów kogoś innego</item>
+        <item>Nie chodź tam, dokąd może zaprowadzić cię droga; zamiast tego idź tam, gdzie ścieżki nie ma w ogóle, i pozostaw za sobą szlak</item>
+<!--        <item>Dużo lepiej jest zdobywać się na śmiałe czyny i dążyć do triumfu w chwale, nawet kosztem porażek, niż snuć się wśród ludzi o ubogich duszach, którzy nie potrafią w pełni cieszyć się ani cierpieć, bo żyją w szarym cieniu, gdzie nie ma zwycięstw ani porażek</item>-->
+        <item>Logika zaprowadzi Cię z punktu A do B. Wyobraźnia - wszędzie</item>
+        <item>Usuń ze swojego słownika słowo problem i zastąp je słowem wyzwanie. Życie stanie się nagle bardziej podniecające i interesujące</item>
+        <item>Za dwadzieścia lat bardziej będziesz żałował tego, czego nie zrobiłeś, niż tego, co zrobiłeś. Więc odwiąż liny, opuść bezpieczną przystań. Złap w żagle pomyślne wiatry. Podróżuj, śnij, odkrywaj!</item>
+        <item>Jesteśmy tym, co o sobie myślimy. Wszystko, czym jesteśmy, wynika z naszych myśli. Naszymi myślami tworzymy świat</item>
+        <item>Największym powodem do chwały nie jest to, że nigdy nie upadamy, ale to, że potrafimy się po upadku podnieść</item>
+        <item>Najpewniejszą drogą do sukcesu jest wciąż próbować, jeszcze ten jeden raz</item>
+        <item>Nie pozwól obawie o to, ile zajmie osiągnięcie czegoś, przeszkodzić Ci w robieniu tego. Czas i tak upłynie, a możemy równie dobrze wykorzystać go w najlepszy możliwy sposób</item>
+        <item>Prawdziwi optymiści nie są przekonani o tym, że wszystko pójdzie dobrze, za to są przekonani, że nie wszystko pójdzie źle</item>
+        <item>Trzymaj się z dala od ludzi, którzy próbują pomniejszać Twoje ambicje. Mali ludzie zawsze tak robią, a naprawdę wielcy sprawiają, że czujesz, że i Ty możesz być wielki</item>
+        <item>To nie kwestia tego, kto mi pozwoli. Kwestia tego, kto mnie powstrzyma</item>
+        <item>Jedyną rzeczą, jaka stoi pomiędzy Tobą a Twoim marzeniem jest wola spróbowania i przekonanie, że jest ono możliwe do zrealizowania</item>
+        <item>Większość rzeczy na tym świecie została stworzona przez ludzi, którzy wytrwali kiedy zdawało się, że nie ma już nadziei</item>
+        <item>Mogę zaakceptować porażkę, ale nie mogę zaakceptować braku próby</item>
+        <item tools:ignore="Typos">Choć nikt nie może cofnąć się w czasie i zmienić początku na zupełnie inny, to każdy może zacząć dziś i stworzyć całkiem nowe zakończenie</item>
+        <item>Nigdy niczego by nie spróbowano, gdyby trzeba było najpierw przezwyciężyć wszystkie możliwe obiekcje</item>
+        <item>Dopóki walczysz, jesteś zwycięzcą!</item>
+        <item>Złoszczenie się na kogoś jest jak picie trucizny w oczekiwaniu, że ta druga osoba umrze</item>
+<!--        <item>Nie obniżaj swoich oczekiwań, by dorównały rezultatom Twojego działania. Podnieś poziom działania, by wyrównać do poziomu Twoich oczekiwań. Spodziewaj się po sobie najlepszego, a potem zrób wszystko, co konieczne, by stało się to rzeczywistością</item>-->
+        <item>Jesteś tu po to, by wieść nadzwyczajne życie, robić nadzwyczajne rzeczy i pomóc nadzwyczajnej liczbie ludzi</item>
+        <item>Zanim coś osiągniesz, musisz czegoś od siebie oczekiwać</item>
+        <item>Płacz na treningu , śmiej się podczas walki</item>
+        <item>Padłem. Nikt nie podał ręki. Sam wstanę… silniejszy</item>
+        <item>Gdyby porażka nie znała kary, sukces nie byłby nagrodą</item>
+        <item>Nic nie zrobiłem dobrego dziś nikomu - dzień to stracony bezużytecznie</item>
+        <item>Jeśli możesz znaleźć drogę, na której nie ma żadnych przeszkód - prawdopodobnie wiedzie ona donikąd</item>
+        <item>Człowiek sukcesu to ktoś, kto potrafi zbudować solidne fundamenty z cegieł, którymi inni w niego rzucają</item>
+        <item>Zadowolenie czyni biednego bogatym, niezadowolenie czyni bogatego biednym</item>
+        <item>Praca rozumna i wytrwała, która nie myśli o zbieraniu owoców w tydzień po posiewie, przebija góry, nad przepaściami przerzuca mosty</item>
+        <item>Nie nauczysz się pływać nie wchodząc do wody</item>
+        <item>Pamiętaj, że wielka miłość i wielki sukces wymagają podjęcia wielkiego ryzyka</item>
+        <item>Nigdy się nie wzbogacisz będąc chorągiewką na wietrze</item>
+        <item>Nigdy nie rezygnuj z celu tylko dlatego, że osiągnięcie go wymaga czasu. Czas i tak upłynie</item>
+        <item>Dbaj o swoje ciało. To jedyne miejsce, w którym żyjesz</item>
+        <item>Konwencjonalny pogląd jest po to, by ochronić nas od bolesnej pracy zwanej myśleniem</item>
+        <item>Ludzki umysł potrafi osiągnąć wszystko, w co potrafi uwierzyć</item>
+        <item>Cierpliwość i wytrwałość mają magiczne działanie - dzięki nim trudności znikają, a przeszkody ulatniają się</item>
+        <item>Nie bój się dużego kroku. Nie pokonasz przepaści dwoma małymi</item>
+        <item>Nie musisz być wielki, aby zacząć, ale musisz zacząć, aby być wielkim</item>
+        <item>Tak młody jak dziś nie będziesz już nigdy. Wykorzystaj to z myślą o Twoim jutrze</item>
+        <item>Należy tak organizować życie, aby każda chwila była ważna</item>
+        <item>Czy rzeczywiście potrzebujemy więcej czasu? Czy też potrzebujemy więcej dyscypliny, by wykorzystać czas, który mamy?</item>
+        <item>Inspiracja istnieje, ale musi zastać Cię przy pracy</item>
+        <item>Jeśli przy drodze do sukcesu tylko siedzisz, to mogą cię wyłącznie rozjechać</item>
+        <item>Wysokie oczekiwania są kluczem do wszystkiego</item>
+        <item>Aby samemu stać się lepszym, nie musisz czekać na lepszy świat</item>
+        <item>Stoicka zasada zaspokajania potrzeb poprzez rezygnację z pragnień jest jak amputacja stóp po to, by nie potrzebować butów</item>
+        <item>Możemy zrealizować każde zamierzenie, jeśli potrafimy trwać w nim wystarczająco długo</item>
+        <item>Czasem radość jest źródłem Twojego uśmiechu, ale czasem Twój uśmiech może stać się źródłem radości</item>
+        <item>Nie możesz zbudować swojej reputacji na tym, co dopiero zamierzasz zrobić</item>
+        <item>Jeśli chce się być szczęśliwym, nie wolno gmerać w pamięci</item>
+
 
     </string-array>
 
-    <string-array name="authors">
-        <item>Matka Teresa z Kalkuty</item>
-        <item>Billie Jean King</item>
-        <item>Diana Spencer</item>
-        <item>Sheryl Sandberg</item>
-        <item>Michelle Obama</item>
-        <item>Amelia Earhart</item>
-        <item>Coco Chanel</item>
-        <item>Marissa Mayer</item>
-        <item>Anais Nin</item>
-        <item>Janet Dailey</item>
-        <item>Maria von Ebner-Eschenbach</item>
-        <item>Kamila Rowińska</item>
-        <item>George Sand</item>
-        <item>Dream Hampton</item>
-        <item>Florence Scovel Shinn</item>
-        <item>Maria Skłodowska-Curie</item>
-        <item>Vivian Green</item>
-        <item>Abigail Van Buren</item>
-        <item>Caterina Fake</item>
-        <item>Kim Kiyosaki</item>
-        <item>M. Scott Peck</item>
-        <item>Arystoteles</item>
-        <item>Nick Vujicic</item>
-        <item>Walt Disney</item>
-        <item>Abraham Lincoln</item>
-        <item>Goethe</item>
-        <item>Marcel Proust</item>
-        <item>Nick Vujicic</item>
-        <item>Mark Fisher</item>
-        <item>Apolinary Despinoix</item>
-        <item>Stephen Covey</item>
-        <item>Vivian Green</item>
-        <item>Seneka Mlodszy</item>
-        <item>Phil Bosmans</item>
-        <item>H. Jackson Brown</item>
-        <item>Walt Disney</item>
-        <item>John Fitzgerald Kennedy</item>
-        <item>Seneka</item>
-        <item>Pitagoras</item>
-        <item>Charles Knight</item>
-        <item>Phil Bosmans</item>
-        <item>Tom Robbins</item>
-        <item>Steve Jobs</item>
-        <item>Erica Jong</item>
-        <item>Walt Disney</item>
-        <item>George Bernard Shaw</item>
-        <item>Mark Twain</item>
-        <item>Henry Ford</item>
-        <item>J. I. Kraszewski</item>
-        <item>Albert Schweitzer</item>
-    </string-array>
     <integer-array name = "images">
         <item>@drawable/img_0</item>
         <item>@drawable/img_1</item>
@@ -127,5 +591,28 @@
         <item>@drawable/img_17</item>
         <item>@drawable/img_18</item>
         <item>@drawable/img_19</item>
+        <item>@drawable/img_20</item>
+        <item>@drawable/img_21</item>
+        <item>@drawable/img_22</item>
+        <item>@drawable/img_23</item>
+        <item>@drawable/img_24</item>
+        <item>@drawable/img_25</item>
+        <item>@drawable/img_26</item>
+        <item>@drawable/img_27</item>
+        <item>@drawable/img_28</item>
+        <item>@drawable/img_29</item>
+        <item>@drawable/img_30</item>
+        <item>@drawable/img_31</item>
+        <item>@drawable/img_32</item>
+        <item>@drawable/img_33</item>
+        <item>@drawable/img_34</item>
+        <item>@drawable/img_35</item>
+        <item>@drawable/img_36</item>
+        <item>@drawable/img_37</item>
+        <item>@drawable/img_38</item>
+        <item>@drawable/img_39</item>
+        <item>@drawable/img_40</item>
+        <item>@drawable/img_41</item>
+        <item>@drawable/img_42</item>
     </integer-array>
 </resources>

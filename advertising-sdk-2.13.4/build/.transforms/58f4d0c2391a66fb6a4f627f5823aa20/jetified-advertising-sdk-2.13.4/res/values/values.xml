@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="min_video_container_size">46dp</dimen>
-    <dimen name="video_button_size">10dp</dimen>
-    <dimen name="video_container_size">26dp</dimen>
-    <dimen name="video_element_margin">2dp</dimen>
-    <dimen name="video_text_size">8sp</dimen>
-    <string name="adform_skip">Skip</string>
-</resources>

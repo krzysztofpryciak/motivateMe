@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">motivateMe</string>
-    <string name="background">background</string>
-    <string name="title_activity_inline">activity_inline</string>
-    <string name="textview">TextView</string>
-    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="bg_main">BGMAIN</string>
+    <string name="background" />
+    <string name="introBackground">introBackground</string>
+    <string name="refreshButton">TODO</string>
+    <string name="todo">TODO</string>
 </resources>
